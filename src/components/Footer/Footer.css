@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  max-width: 100vw;
+  padding: 0;
+  margin: 0;
+  height: 15vh;
+}
+
+.footer__links {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  padding-top: 6vh;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color:rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer__link:hover {
+  transition: ease 3ms;
+  color:  rgba(2, 228, 192, 1);
+}

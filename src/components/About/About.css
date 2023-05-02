@@ -1,0 +1,132 @@
+.about-__container {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  gap: 20px;
+  align-self: self-start;
+}
+
+.about__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 38px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.about__title-blue {
+  color: rgba(2, 228, 192, 1);
+}
+
+.about__subtitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  white-space: pre-wrap;
+}
+
+br {
+  margin-top: 20px;
+}
+
+.about__img {
+  width: 300px;
+  height: 100%;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+              1px 2px 4px 0px rgba(0,255,255,0.7),
+              2px 4px 8px 0px rgba(0,255,255,0.7),
+              2px 4px 16px 0px rgba(0,255,255,0.7);
+}
+
+.about__title-stack {
+  margin: 0;
+  padding: 0;
+  padding-top: 10vh;
+  text-align: center;
+  font-weight: 500;
+  font-size: 38px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.about-stack {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.about-stack__text {
+  margin: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: transparent;
+  padding: 15px 15px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,255,255,0.7);
+  box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+              1px 2px 4px 0px rgba(0,255,255,0.7),
+              2px 4px 16px 0px rgba(0,255,255,0.7),
+              2px 4px 8px 0px rgba(0,255,255,0.7);
+}
+
+@media screen and (max-width: 800px) {
+  .about__img {
+    width: 200px;
+  }
+
+  .about__text {
+    max-width: 200px;
+  }
+
+  .about__title  {
+    font-size: 20px;
+  }
+
+  .about__title-stack {
+    font-size: 24px;
+  }
+
+  .about__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-__container {
+    margin-top: 40px;
+    gap: 10px;
+  }
+  .about__img {
+    max-width: 120px;
+  }
+
+  .about__text {
+    max-width: 150px;
+  }
+
+  .about__title  {
+    font-size: 16px;
+  }
+
+  .about__subtitle {
+    font-size: 14px;
+  }
+}
