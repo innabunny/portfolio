@@ -6,31 +6,37 @@ export const array = [
   {
     id: 1,
     img: card_1,
-    description: "Лендинг"
+    description: "Лендинг",
+    link: 'https://github.com/innabunny/Sprint-2-How-to-learn',
   },
   {
     id:2,
     img: card_2,
-    description: "Адаптивная верстка"
+    description: "Адаптивная верстка",
+    link: 'https://github.com/innabunny/russian-travel',
   },
   {
     id:3,
     img: card_3,
-    description: "Маленький инстаграм"
+    description: "Маленький инстаграм",
+    link: 'https://github.com/innabunny/mesto',
   },
   {
     id: 4,
     img: card_1,
-    description: "Лендинг"
+    description: "Лендинг",
+    link: 'https://github.com/innabunny/Sprint-2-How-to-learn',
   },
   {
     id: 5,
     img: card_2,
-    description: "Адаптивная верстка"
+    description: "Адаптивная верстка",
+    link: 'https://github.com/innabunny/russian-travel',
   },
   {
     id: 6,
     img: card_3,
-    description: "Маленький инстаграм"
+    description: "Маленький инстаграм",
+    link: 'https://github.com/innabunny/mesto',
   }
 ]
