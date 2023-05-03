@@ -9,7 +9,7 @@ export default function Card({props}) {
   const handleMouseLeave = () => setIsHovered(false);
 
   return (
-    <a href='#' className='content__link' 
+    <a href={props.link} target='_blank' className='content__link' rel="noreferrer"
     onMouseOver={handleMouseOver} 
     onMouseLeave={handleMouseLeave}
     >
@@ -17,7 +17,7 @@ export default function Card({props}) {
         isHovered ? 
         <div className='content__overlay'>{props.description}</div>
         :
-        <img src={props.img} className='content__img'></img>
+        <img src={props.img} className='content__img' alt='image project'></img>
       }
    </a>
   )
