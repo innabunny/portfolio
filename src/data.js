@@ -1,7 +1,8 @@
-import card_1 from './img/portfolio_card1.jpg'
-import card_2 from './img/portfolio_card2.jpg'
-import card_3 from './img/portfolio_card3.jpg'
-import card_4 from './img/portfolio_card4.jpg'
+import card_1 from './img/portfolio_card1.jpg';
+import card_2 from './img/portfolio_card2.jpg';
+import card_3 from './img/portfolio_card3.jpg';
+import card_4 from './img/portfolio_card4.jpg';
+import card_5 from './img/portfoilio_card5.jpg';
 
 export const array = [
   {
@@ -38,6 +39,13 @@ export const array = [
     descriptionRU: "Сервис поиска фильмов",
     descriptionEN: "Movies explorer",
     link: 'https://github.com/innabunny/movies-explorer-frontend',
+  },
+  {
+    id: 6,
+    img: card_5,
+    descriptionRU: "Суши ресторан",
+    descriptionEN: "Sushi market",
+    link: 'https://github.com/innabunny/sushi-market',
   },
   
 ]
