@@ -1,5 +1,5 @@
 import './About.css'
-import photo from "../../img/photo.jpg";
+import photo from "../../img/photo.png";
 import Type from './TypeWriter';
 
 export default function About({isTranslate}) {
@@ -8,16 +8,19 @@ export default function About({isTranslate}) {
       <div className='about-__container'>
         <div className='about__text'>
           <h1 className='about__title'>
-            {isTranslate ? "Hello, my name is " : "Привет! Меня зовут " }
+            {isTranslate ? "Hello, my name is " : "Привет, меня зовут " }
             <strong className='about__title about__title-blue'>
-              {isTranslate ?  "Inna." : "Инна."}</strong>
+              {isTranslate ?  "Inna!" : "Инна!"}</strong>
             </h1>
             <p className='about__title'> 
               <Type translate={isTranslate}/>
             </p>
 
         </div>
+        <div className='about__img-wrapper'>
       <img alt='photo' src={photo} className='about__img'></img>
+
+        </div>
       </div>
       <h2 className='about__title-stack'>{isTranslate ? "My stack" : "Мой стек"}</h2>
       <div className='about-stack'>

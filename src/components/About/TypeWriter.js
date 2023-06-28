@@ -6,8 +6,8 @@ export default function Type({ translate }) {
     <TypewriterComponent
       options={{
         strings: translate
-          ? ["I am a beginner frontend developer"]
-          : ["Я начинающий фронтенд разработчик"],
+          ? ["I am a beginner frontend developer."]
+          : ["Я начинающий фронтенд разработчик."],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,

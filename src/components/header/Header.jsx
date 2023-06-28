@@ -9,8 +9,8 @@ export default function Header({translateRU, translateEN, isTranslate}) {
         <ul className="header__links">
           <li><a href="#project" className="header__link">{ isTranslate ? "Home" : "Главная"}</a></li>
           <li><a href="#project" className="header__link">{ isTranslate ? "About Me" : "Обо мне"}</a></li>
-          <li><a href="#contacts" className="header__link">{ isTranslate ? "My projects" : "Мои проекты"}</a></li>
           <li><a href="#contacts" className="header__link">{ isTranslate ? "Resume" : "Резюме"}</a></li>
+          <li><a href="#contacts" className="header__link">{ isTranslate ? "Projects" : "Проекты"}</a></li>
         </ul>
       </nav>
       <div>
