@@ -1,18 +1,23 @@
 import './About.css'
-import photo from "../../img/copy.jpg";
+import photo from "../../img/photo.jpg";
+import Type from './TypeWriter';
 
 export default function About({isTranslate}) {
   return (
     <>
       <div className='about-__container'>
         <div className='about__text'>
-          <h1 className='about__title'>{isTranslate ? "About" : "Обо"} <span className='about__title-blue'>{isTranslate ? "me" : "мне" }</span></h1>
-          <p className='about__subtitle'>
-            {isTranslate ? "Hello, my name is Inna" : "Привет, меня зовут Инна." }
-            <br/>{isTranslate ? "I am a beginner frontend developer" : "Я начинающий Frontend-разработчик." }
+          <h1 className='about__title'>
+            {isTranslate ? "Hello, my name is " : "Привет! Меня зовут " }
+            <strong className='about__title about__title-blue'>
+              {isTranslate ?  "Inna." : "Инна."}</strong>
+            </h1>
+            <p className='about__title'> 
+              <Type translate={isTranslate}/>
             </p>
+
         </div>
-        <img alt='photo' src={photo} className='about__img'></img>
+      <img alt='photo' src={photo} className='about__img'></img>
       </div>
       <h2 className='about__title-stack'>{isTranslate ? "My stack" : "Мой стек"}</h2>
       <div className='about-stack'>

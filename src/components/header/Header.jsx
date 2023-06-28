@@ -7,8 +7,10 @@ export default function Header({translateRU, translateEN, isTranslate}) {
       <a href="https://github.com/innabunny" target="_blank" className="header__link"><img src={icon} className="header__img"></img></a>
       <nav>
         <ul className="header__links">
-          <li><a href="#project" className="header__link">{ isTranslate ? "Projects" : "Проекты"}</a></li>
-          <li><a href="#contacts" className="header__link">{ isTranslate ? "My contacts" : "Мои контакты"}</a></li>
+          <li><a href="#project" className="header__link">{ isTranslate ? "Home" : "Главная"}</a></li>
+          <li><a href="#project" className="header__link">{ isTranslate ? "About Me" : "Обо мне"}</a></li>
+          <li><a href="#contacts" className="header__link">{ isTranslate ? "My projects" : "Мои проекты"}</a></li>
+          <li><a href="#contacts" className="header__link">{ isTranslate ? "Resume" : "Резюме"}</a></li>
         </ul>
       </nav>
       <div>
