@@ -17,14 +17,14 @@ export default function Header({translateRU, translateEN, isTranslate}) {
      <Nav className='header'>
       <Nav.Link href="https://github.com/innabunny" target="_blank" className="header__link"><img src={icon} className="header__img"></img></Nav.Link>
         <ul className="header__links">
-          <li><Link to='/home' className="header__link"><AiOutlineHome /> {isTranslate ? 'Home' : 'Главная'}</Link></li>
+          <li><Link to='/' className="header__link"><AiOutlineHome /> {isTranslate ? 'Home' : 'Главная'}</Link></li>
           <li><Link to='/about' className="header__link"><AiOutlineUser /> {isTranslate ? 'About' : 'Обо мне'}</Link></li>
           <li><Link to='/resume' href="#contacts" className="header__link"><CgFileDocument /> {isTranslate ? 'Resume' : 'Резюме'}</Link></li>
           <li><Link to='/project' href="#contacts" className="header__link"><FaRegCalendarCheck /> {isTranslate ? 'Projects' : 'Проекты'}</Link></li>
         </ul>
       <div>
-        <button className="header__btn" onClick={translateRU}>Ru</button>
-        <button className="header__btn" onClick={translateEN}>En</button>
+        <button className="header__btn" onClick={translateRU}>RU</button>
+        <button className="header__btn" onClick={translateEN}>EN</button>
       </div>
       </Nav>
 </>

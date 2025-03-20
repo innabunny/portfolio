@@ -20,7 +20,7 @@
 
 .footer__link {
   text-decoration: none;
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   font-weight: 400;
   font-size: 20px;
   cursor: pointer;
@@ -28,5 +28,19 @@
 
 .footer__link:hover {
   transition: ease 3ms;
-  color:  rgba(2, 228, 192, 1);
+  color: rgba(2, 228, 192, 1);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__icon {
+  color: rgba(2, 228, 192, 1);
+  size: 26px;
+  width: 22px;
+  height: 100%;
+  padding-right: 0.3vw;
 }

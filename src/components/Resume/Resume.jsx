@@ -1,5 +1,11 @@
+import './Resume.css';
+
 export default function Resume() {
   return (
-    <p>Resume</p>
-  )
+    <>
+      <div>
+        <p className="resume__text">Резюме</p>
+      </div>
+    </>
+  );
 }

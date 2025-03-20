@@ -25,7 +25,7 @@ export default function About({isTranslate}) {
       <h2 className='about__title-stack'>{isTranslate ? "My stack" : "Мой стек"}</h2>
       <div className='about-stack'>
         <div className='about-stack__text'>HTML5</div>
-        <div className='about-stack__text'>CSS</div>
+        <div className='about-stack__text'>CSS3</div>
         <div className='about-stack__text'>JavaScript</div>
         <div className='about-stack__text'>BEM</div>
         <div className='about-stack__text'>Git</div>

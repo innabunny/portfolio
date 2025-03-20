@@ -1,12 +1,12 @@
-import { Route, BrowserRouter, Routes } from "react-router-dom";
-import "./App.css";
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
+import './App.css';
 
-import Header from "./components/header/Header";
-import About from "./components/About/About";
-import Content from "./components/Content/Content";
-import Footer from "./components/Footer/Footer";
-import { useState } from "react";
-import Resume from "./components/Resume/Resume";
+import Header from './components/Header/Header';
+import MainPage from './components/MainPage/MainPage';
+import Footer from './components/Footer/Footer';
+import AboutMe from './components/About/AboutMe';
+import { useState } from 'react';
+import Resume from './components/Resume/Resume';
 
 function App() {
   const [isTranslate, setIsTranslate] = useState(false);
@@ -27,10 +27,10 @@ function App() {
         translateRU={translateRU}
       />
       <Routes>
-        <Route path="/resume" element={Resume} />
+        <Route path="/" element={<MainPage isTranslate={isTranslate} />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/about" element={<AboutMe isTranslate={isTranslate} />} />
       </Routes>
-      <About isTranslate={isTranslate} />
-      <Content isTranslate={isTranslate} />
       <Footer isTranslate={isTranslate} />
     </BrowserRouter>
   );
