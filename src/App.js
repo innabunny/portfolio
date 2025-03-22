@@ -27,7 +27,7 @@ function App() {
         translateRU={translateRU}
       />
       <Routes>
-        <Route path="/" element={<MainPage isTranslate={isTranslate} />} />
+        <Route path="*"  element={<MainPage isTranslate={isTranslate} />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/about" element={<AboutMe isTranslate={isTranslate} />} />
       </Routes>

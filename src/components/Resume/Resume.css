@@ -1,3 +1,41 @@
-.resume__text {
+.resume__container {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+p,
+h1 {
   color: white;
+}
+
+.resume__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(fit-content));
+}
+
+.resume__text {
+  font-size: 1.4rem;
+  /* text-decoration: underline;
+  text-decoration-color: rgba(0, 255, 255, 0.6);
+  text-shadow: 1px 2px 4px 0px rgba(0, 255, 255, 0.6),
+    1px 2px 4px 0px rgba(0, 255, 255, 0.6),
+    1px 2px 4px 0px rgba(0, 255, 255, 0.6); */
+}
+
+.resume__text-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.resume__text-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 255, 255, 0.6);
+  box-shadow: 1px 2px 4px 0px rgba(0, 255, 255, 0.6);
 }

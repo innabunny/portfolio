@@ -1,5 +1,5 @@
 import './About.css'
-import photo from "../../img/photo.png";
+import photo from "../../assets/photo.png";
 import Type from './TypeWriter';
 
 export default function About({isTranslate}) {

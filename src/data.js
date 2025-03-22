@@ -1,8 +1,9 @@
-import card_1 from './img/portfolio_card1.jpg';
-import card_2 from './img/portfolio_card2.jpg';
-import card_3 from './img/portfolio_card3.jpg';
-import card_4 from './img/portfolio_card4.jpg';
-import card_5 from './img/portfoilio_card5.jpg';
+import card_1 from './assets/portfolio_card1.jpg';
+import card_2 from './assets/portfolio_card2.jpg';
+import card_3 from './assets/portfolio_card3.jpg';
+import card_4 from './assets/portfolio_card4.jpg';
+import card_5 from './assets/portfoilio_card5.jpg';
+import photo_1 from './assets/atomskills.png';
 
 export const array = [
   {
@@ -52,18 +53,17 @@ export const array = [
 export const aboutMe = [
   {
     id: 1,
-    ru: `   Меня зовут Инна, и я — начинающий фронтенд-разработчик с необычным
-        бэкграундом. По образованию я инженер-физик, выпускница
-        физико-технического факультета по специальности "Ядерная физика и
-        технологии". Моя профессиональная жизнь началась с работы в области
-        неразрушающего контроля, где я научилась мыслить аналитически, решать
-        сложные задачи и находить нестандартные подходы.`,
+    ru: `Меня зовут Инна, и я — начинающий фронтенд-разработчик с необычным бэкграундом. По образованию я инженер-физик, выпускница физико-технического факультета по специальности
+    "Ядерная физика и технологии". 
+    Моя профессиональная жизнь началась с работы в области
+    неразрушающего контроля, где я научилась мыслить аналитически, решать
+    сложные задачи и находить нестандартные подходы.`,
     en: `My name is Inna, and I am a beginner front-end developer with an unusual 
     background. I am an engineer-physicist by education, a graduate 
     of the Faculty of Physics and Technology, specializing in "Nuclear Physics and Technologies".
      My professional life began with work in the field of non-destructive testing, 
      where I learned to think analytically, solve complex problems and find non-standard approaches.`,
-    image: '',
+    image: photo_1,
   },
   {
     id: 2,
